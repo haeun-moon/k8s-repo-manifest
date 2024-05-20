@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: deploy-test
-  namespace: argocd
+  namespace: default
 spec:
   replicas: 2
   strategy:
