@@ -16,4 +16,4 @@ spec:
       - image: docker.io/haeunmoon/argoupdater:1.0
         name: sample
         ports:
-        - containerPort: 5000
+        - containerPort: 80
